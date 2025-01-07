@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive India Map</title>
+    <style>
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+    <script>
+        function showPage(url) {
+            document.getElementById('frame').src = url;
+        }
+    </script>
+</head>
+<body>
+    <h1>Click on a State</h1>
+    <img src="img/India States Map and Outline.jpg" usemap="#indiamap" alt="India Map">
+    <map name="indiamap">
+    <area shape="poly" href="https://en.wikipedia.org/wiki/Tamil_Nadu" coords="248,544,252,551,250,562,245,567,242,579,238,587,239,594,240,601,240,610,244,615,239,621,230,620,224,624,224,630,220,643,229,642,212,648,207,651,201,656,199,661,193,666,186,669,179,663,178,653,182,642,182,631,179,624,174,618,171,610,170,603,166,597,162,589,171,587,180,584,188,584,197,577,191,573,190,565,205,566,196,561,211,563,215,558,226,556,232,553,243,550,237,549" alt="Tamil Nadu" target="frame">
+    <area shape="poly" alt="Kerala" title="Kerala" href="https://en.wikipedia.org/wiki/Kerala" coords="132,562,138,567,144,573,150,576,157,582,164,586,158,590,166,597,168,606,173,611,172,619,178,623,179,630,180,635,179,642,179,648,179,654,176,665,169,658,163,649,161,635,158,621,153,611,150,604,145,587,137,578" shape="poly" target="frame">
+    <area shape="poly" alt="Andhra" title="Andhra" href="https://en.wikipedia.org/wiki/Andhra_Pradesh" coords="188,489,180,491,178,500,178,507,174,512,174,519,181,525,186,527,186,536,196,538,205,544,208,550,206,561,214,556,220,556,227,553,237,553,244,546,250,543,246,532,244,517,247,507,254,496,261,494,274,484,288,480,294,471,299,462,310,455,322,448,332,438,337,430,344,424,326,426,321,420,315,424,309,433,304,436,294,433,293,441,284,442,283,448,280,453,276,458,267,463,261,466,253,472,243,474,232,480,212,489,223,488,200,494,189,494" shape="poly" target="frame">
+    <area target="frame" alt="Maharashtra" title="Maharashtra" href="https://en.wikipedia.org/wiki/Maharashtra" coords="121,360,135,361,146,365,157,369,166,372,177,365,185,360,192,360,192,367,204,366,232,366,244,366,253,372,250,382,250,394,251,406,252,416,242,410,225,410,214,403,207,406,203,415,195,420,184,433,178,438,169,444,160,454,152,455,144,459,139,466,124,470,118,479,116,487,106,491,100,482,98,459,97,444,94,430,91,418,88,396,115,376,102,386" shape="poly">
+    <area target="frame" alt="Telangana" title="Telangana" href="https://en.wikipedia.org/wiki/Telangana" coords="238,410,245,416,242,422,247,430,257,430,262,441,274,446,282,449,276,456,270,460,256,477,241,477,236,472,230,477,224,482,216,488,205,492,188,493,189,480,190,469,193,460,192,445,194,432,198,423,204,416,209,407,219,412,228,409" shape="poly">
+    <area target="frame" alt="Gujarat" title="Gujarat" href="https://en.wikipedia.org/wiki/Gujarat" coords="98,381,105,387,110,377,116,377,116,365,126,361,117,353,127,348,126,335,122,320,110,305,78,289,64,290,38,295,20,296,11,304,6,308,10,321,22,326,40,325,46,322,44,327,36,333,20,337,16,345,24,349,25,357,32,361,38,367,44,372,65,372,78,354,88,344,91,364,93,386" shape="poly">
+    <area target="frame" alt="Madhya_Pradesh" title="Madhya_Pradesh" href="https://en.wikipedia.org/wiki/Madhya_Pradesh" coords="126,337,130,327,136,319,140,308,143,290,153,291,154,306,168,305,180,305,186,287,190,280,184,262,212,247,222,255,221,265,213,272,207,297,217,302,124,352,129,353,134,356,140,359,146,363,163,365,176,362,194,361,201,361,214,361,238,361,254,361,262,349,273,339,282,329,284,322,278,308,289,311,299,311,299,303,299,297,288,294,272,290,262,291,256,288,245,283,237,283,224,283,169,329" shape="poly">
+    <area target="frame" alt="Chhattisgarh" title="Chhattisgarh" href="https://en.wikipedia.org/wiki/Chhattisgarh" coords="250,427,256,416,261,411,254,399,255,391,256,377,261,366,269,352,280,343,290,327,292,316,309,312,320,316,323,324,329,345,310,360,301,371,293,385,289,396,284,403,288,416,288,424,281,432,276,440,268,447" shape="poly">
+    <area target="frame" alt="Orisha" title="Orisha" href="https://en.wikipedia.org/wiki/Orisha" coords="291,422,276,445,284,447,295,435,303,435,310,427,320,419,326,423,335,420,348,414,375,400,390,383,388,366,400,359,392,353,382,346,374,343,367,353,358,351,347,349,336,343,330,342,322,347,305,372,297,379,302,399,299,395,287,403" shape="poly">
+    <area target="frame" alt="Jharkhand" title="Jharkhand" href="https://en.wikipedia.org/wiki/Jharkhand" coords="315,310,316,296,329,296,335,299,344,299,358,292,366,290,374,298,384,293,401,279,402,290,400,298,396,304,382,312,372,318,365,323,370,328,382,332,382,340,370,340,366,352,358,353,350,343,334,345,334,332" shape="poly">
+    <area target="frame" alt="Rajasthan" title="Rajasthan" href="https://en.wikipedia.org/wiki/Rajasthan" coords="66,289,55,275,43,259,42,247,34,245,40,229,50,220,58,221,74,220,88,209,110,188,118,175,134,188,144,189,150,197,158,211,168,225,182,219,180,228,190,227,197,239,192,247,201,247,188,260,174,269,191,285,156,316,148,288,140,292,135,302,137,319,135,326,126,329,109,312,102,300" shape="poly">
+    <area target="frame" alt="Uttar_Pradesh" title="Uttar_Pradesh" href="https://en.wikipedia.org/wiki/Uttar_Pradesh" coords="196,168,202,178,210,184,216,187,229,195,242,204,297,226,322,232,326,251,328,262,324,270,314,280,312,298,310,308,300,307,300,296,294,295,273,284,256,286,248,278,232,282,222,280,223,299,211,299,209,278,216,272,224,263,223,247,210,246,193,241,188,222,195,217,193,210,190,197,189,178" shape="poly">
+    <area target="frame" alt="Haryana" title="Haryana" href="https://en.wikipedia.org/wiki/Haryana" coords="137,176,149,178,160,179,176,170,182,166,186,160,194,169,188,176,185,190,185,198,175,206,183,212,193,214,194,217,187,224,175,213,171,218,163,216,151,189,136,186,193,214" shape="poly">
+    <area target="frame" alt="Uttarakhand" title="Uttarakhand" href="https://en.wikipedia.org/wiki/Uttarakhand" coords="205,147,220,151,225,145,232,149,248,160,256,171,252,179,248,191,242,198,231,200,220,183,208,184,202,170" shape="poly">
+    <area target="frame" alt="Punjab" title="" href="https://en.wikipedia.org/wiki/Punjab" coords="154,125,144,128,140,134,138,147,132,154,128,158,128,168,139,172,151,173,164,172,176,167,179,157,168,140" shape="poly">
+    <area target="frame" alt="Delhi" title="Delhi" href="https://en.wikipedia.org/wiki/Delhi" coords="185,203,187,209" shape="poly">
+    <area target="frame" alt="Himachal_Pradesh" title="Himachal_Pradesh" href="https://en.wikipedia.org/wiki/Himachal_Pradesh" coords="162,117,172,105,182,104,187,108,197,112,203,112,211,121,216,134,220,147,202,144,200,156,195,165,188,153,181,153,178,142,167,138,164,126" shape="poly">
+    <area target="frame" alt="Jammu_and_Kashmir_" title="Jammu_and_Kashmir_" href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)" coords="155,117,123,103,130,59,110,31,127,20,141,15,156,14,188,42,200,49,234,43,248,53,236,74,225,88,222,96,230,100,234,115,218,113" shape="poly">
+    <area target="frame" alt="Bihar" title="Bihar" href="https://en.wikipedia.org/wiki/Bihar" coords="325,239,334,227,337,236,364,244,379,252,403,252,406,258,402,272,396,280,382,289,375,295,367,288,360,288,352,295,344,297,337,299,330,298,318,295,314,278,331,270,328,252" shape="poly">
+
+    </map>
+    <iframe name="frame"></iframe>
+</body>
+</html>
